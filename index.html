@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las noticias mas recientes y relevantes de deportes, negocios y mas</title>
+
+<style>
+
+
+html,body {
+    margin: 0; /* Elimina márgenes para que el fondo llegue hasta los bordes */
+    padding: 0; /* Evita cualquier espacio extra */
+}
+
+
+/* estilo para la lista de elementos */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo para los elementos de la lista */
+li {
+    position: relative;
+    margin: 0 20px;
+}
+
+
+/* estilo para los enlaces */
+a {
+    text-decoration: none;
+    color: black;
+    background-color: white; /* color de fondo */
+    padding: 10px 25px;
+    display: block;
+}
+
+
+/* estilo para barra de navegacion */
+nav {
+    display: flex; /* Hace que los elementos dentro del <nav> se alineen en fila */
+    gap: 90px; /* Espacio entre los elementos internos */
+    background-color: white; /*color de fondo*/
+
+}
+
+
+/* estilo para submenu (lo que esta oculto)*/
+.dropdown-content{
+    display: none;   /* esta propiedad oculta el menu desplegable */
+    background-color: white;
+}
+
+        
+/* li:hover (solo se muestra al pasar el mouse) */
+/* la vista del .dropdown-content pasa de none a block */
+li:hover .dropdown-content {
+    display: block;
+}
+
+
+/* estilo para el titulo centrado */
+.TITULO {
+    text-align: center; /* Alinea el texto al centro */
+    color: #007BFF;
+    font-size: 70px;
+    width: 100%;
+    display: block;
+    background-color: #ecefef;
+    padding: 20px 0; /* Espaciado arriba y abajo del título (20px) y espaciado derecha izquierda (0px)  */
+    margin: 0;  /* Elimina márgenes que puedan crear espacios extra */
+/* Borde para las letras del titulo */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.867), -2px -2px 5px rgba(0, 0, 0, 0.867);    
+}
+
+
+/* estilo para el logo */
+.LOGO {
+    width: 280px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+/* estilo para el texto pagina pricipal */
+.Texto {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    max-width: 1000px;   /* Limita el ancho del texto para que no se vea demasiado extendido */
+    margin: 30px auto;  /* Centra el párrafo en la página */
+    padding: 15px;
+    background-color: #ecefef;
+    border-left: 4px solid #007BFF; /* Barra de color a la izquierda para dar énfasis */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);  /* Sombra suave para un efecto flotante */
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+ <div>
+      <h1 class="TITULO"> "EL FARO"  </h1> <img src="../source/1393-El-Faro-noticias-Logo.png" alt="Logo de El Faro " class= "LOGO"> 
+ </div>
+
+
+<nav>
+        
+    <ul>
+
+        <li>
+            <h2>Menú</h2> 
+            <div class="dropdown-content">
+                <a href="index.html">Inicio</a>
+                <a href="Deportes.html">Deportes</a>
+                <a href="Negocios.html">Negocios</a>
+                
+            </div>
+
+        </li>
+
+    </ul>
+
+    <ul >
+        <li>
+            <h2>Noticias</h2>
+            <div class="dropdown-content">
+                <a href="Noticias.html">Lo mas Relevante</a>
+                
+            </div>
+        </li>
+    </ul>
+
+</nav>
+
+<p class="Texto">
+    Bienvenido a <strong>"El Faro"</strong>, tu fuente confiable de noticias más recientes y 
+    relevantes en deportes, negocios y temas de interés general. Nos dedicamos a ofrecerte 
+    la información más actualizada sobre los eventos deportivos más destacados, las últimas 
+    tendencias en el mundo de los negocios, y las noticias más importantes que afectan a tu día 
+    a día. ¡Mantente informado y al tanto de todo lo que está sucediendo en el mundo con nosotros!
+</p>
+
+</body>
+
+</html>

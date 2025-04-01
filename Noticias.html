@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Noticias mas Relevantes</title>
+
+
+    <style>
+
+        html, body {
+
+            margin: 0; /* Elimina márgenes para que el fondo llegue hasta los bordes */
+            padding: 0; /* Evita cualquier espacio extra */
+            
+        }
+        
+        
+        .TITULO {
+            text-align: center;
+            color: #00a6ff;
+            font-size: 55px;
+            width: 100%;  /* Asegura que el fondo ocupe todo el ancho */
+            display: block; /* Por defecto el display: block asegura que ocupe todo el ancho */
+            background-color: #ecefef;
+            padding: 20px 0;  /* Espaciado arriba y abajo del título (20px) y espaciado derecha izquierda (0px)  */
+            margin: 0;  /* Elimina márgenes que puedan crear espacios extra */
+            /* Borde para las letras del título */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.867), -2px -2px 5px rgba(0, 0, 0, 0.867); 
+        }
+        
+        .noticias {
+                    text-align: center;
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+        
+        .noticias tr {
+            border-bottom: 30px solid #ecefef; /* Línea entre noticias */
+        }
+        
+        .noticias td {
+            padding: 20px; /* Espaciado interno para mejorar la legibilidad */
+        }
+        
+        .video {
+                    text-align: center; /* Centra el video, se puede utilizar por que esta dentro de un <div> */
+                    margin: 20px auto; /* margen arriba y abajo (20px) y auto a los lados para centrarlo */
+                    border-bottom: 35px solid #ecefef; /* Línea entre noticias */
+                    width: 100%;
+                    }
+        
+        
+        
+        .titulo2 {
+                    text-align: center;
+                    font-size: 35px;
+                
+                }
+        
+        .img {
+                    width: 330px;
+                    height: auto;
+                    display: block;
+                    margin: 0 auto; 
+                    text-align: center;
+                }
+        
+        .titulo {
+                    text-align: center;
+                    font-size: 30px;
+                    margin-top: 30px;
+                }
+        
+        .parrafo{
+            font-size: 20px;
+        }
+        
+        .categoria {
+                    text-align: center;
+                    font-size: 25px;
+                    margin-top: 10px;
+                }
+        
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <h1 class="TITULO"> Lo más relevante en el ámbito noticiario. </h1>
+
+    <audio controls autoplay loop>
+        <source src="../source/breaking-news-background-music-252187.mp3" type="audio/mpeg">
+    </audio>
+
+    <table class="noticias">
+        <tr>
+            <td>
+                <h2 class="titulo">Chile se reúne con funcionarios de la CPI por asesinato de disidente venezolano vinculado al Tren de Aragua</h2>
+                <h3 class="categoria">Policial</h3>
+                <div>
+                <img src="../source/noticiaCPI.png" alt="img notocia Policial " class= "img">
+                <p class="parrafo">
+                    Las autoridades chilenas se reunieron con representantes de la Corte Penal Internacional (CPI) 
+                    para abordar el asesinato de Ronald Ojeda, exteniente y disidente venezolano. Ojeda fue 
+                    secuestrado en su residencia en Santiago por individuos que se hicieron pasar por policías y 
+                    posteriormente asesinado, presuntamente por el grupo criminal Tren de Aragua con posibles 
+                    vínculos al gobierno venezolano. El fiscal nacional de Chile, Ángel Valencia, indicó que el 
+                    crimen tuvo motivaciones políticas y que se proporcionará a la CPI evidencia que conecte esta 
+                    investigación con una pesquisa en curso sobre violaciones de derechos humanos por parte de 
+                    funcionarios venezolanos.
+                </p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2 class="titulo">Fiscal Roberto Garrido compara grupos de la Macrozona Sur con el Tren de Aragua​</h2>
+                <h3 class="categoria">Investigación</h3>
+                <div>
+                <img src="../source/fiscal.png" alt="img fiscal Roberto Garrido " class= "img">
+                <p class="parrafo">
+                    El fiscal Roberto Garrido ha señalado que los grupos que operan en la Macrozona Sur de Chile presentan 
+                    comportamientos similares a los del Tren de Aragua, una organización criminal de origen venezolano. 
+                    Garrido destacó que estas bandas han evolucionado de actos de violencia rural a actividades de crimen 
+                    organizado, incluyendo robos, tráfico de drogas y extorsión, sin una finalidad política clara. Esta 
+                    transformación ha generado preocupación por el aumento de la criminalidad en la región y la 
+                    dificultad para identificar a los responsables debido a la falta de testigos y pruebas concretas.
+                </p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2 class="titulo">No hay lugar para políticas de “motosierra” en Chile, dice Boric</h2>
+                <h3 class="categoria">Política</h3>
+                <div>
+                <img src="../source/boric.png" alt="img maraton " class= "img">
+                <p class="parrafo">
+                    El presidente chileno Gabriel Boric Font subrayó en la jornada inaugural de la reunión anual del 
+                    Banco Interamericano de Desarrollo (BID) en Santiago la importancia de priorizar proyectos a 
+                    largo plazo y mantener la estabilidad institucional. Boric enfatizó que es preferible evitar 
+                    reformas drásticas y cortoplacistas, aludiendo indirectamente a políticas implementadas por 
+                    otros líderes regionales.
+                </p>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+
+
+    <h2 class="titulo2">Video Noticia.</h2>
+
+    <div class="video">
+    <iframe width="350" height="350" src="https://www.youtube.com/embed/V9iMQvg6QZA?si=Ahm1idM88DXhjtEt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+
+
+
+    
+</body>
+</html>

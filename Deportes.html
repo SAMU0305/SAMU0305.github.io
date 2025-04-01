@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Noticias de Deportes</title>
+
+
+<style>
+
+        html, body {
+            margin: 0; /* Elimina márgenes para que el fondo llegue hasta los bordes */
+            padding: 0; /* Evita cualquier espacio extra */
+        }
+        
+        
+        
+        
+        .TITULO {
+            text-align: center;
+            color: #00a6ff;
+            font-size:55px;
+            width: 100%;  /* Asegura que el fondo ocupe todo el ancho */
+            display: block; /* Por defecto el display: block asegura que ocupe todo el ancho */
+            background-color: #ecefef;
+            padding: 20px 0;  /* Espaciado arriba y abajo del título (20px) y espaciado derecha izquierda (0px)  */
+            margin: 0;  /* Elimina márgenes que puedan crear espacios extra */
+            /* Borde para las letras del título */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.867), -2px -2px 5px rgba(0, 0, 0, 0.867); 
+        }
+        
+        
+        .noticias {
+                    text-align: center;
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+        
+        
+        .noticias tr {
+            border-bottom: 30px solid #ecefef; /* Línea entre noticias */
+        }
+        
+        .noticias td {
+            padding: 20px; /* Espaciado interno para mejorar la legibilidad */
+        }
+                
+        .img {
+                    width: 330px;
+                    height: auto;
+                    display: block;
+                    margin: 0 auto; 
+                    text-align: center;
+                }
+        
+        .titulo {
+                    text-align: center;
+                    font-size: 30px;
+                    margin-top: 30px;
+                }
+        
+        .parrafo{
+            font-size: 20px;
+        }
+        
+        .categoria {
+                    text-align: center;
+                    font-size: 25px;
+                    margin-top: 10px;
+                }
+        
+        
+</style>
+
+</head>
+
+
+<body>
+
+    <div>
+    <h1 class="TITULO">Las Noticias mas relevantes del mudo del Deportes.</h1>
+    </div>
+
+    <table class="noticias">
+        <tr>
+            <td>
+                <h2 class="titulo">Acuerdo histórico en el atletismo nacional: Maratón de Santiago vuelve a ser federado</h2>
+                <h3 class="categoria">Atletismo</h3>
+                <div>
+                <img src="../source/maraton.png" alt="img maraton " class= "img">
+                <p class="parrafo">
+                    El Maratón de Santiago ha recuperado su certificación oficial gracias a un acuerdo entre 
+                    la Federación Atlética de Chile (Fedachi) y la productora Prokart. Este hito permite que 
+                    los tiempos registrados en la competencia sean válidos para clasificaciones internacionales, 
+                    beneficiando a atletas que buscan marcas oficiales. El Ministro del Deporte, Jaime Pizarro, 
+                    destacó la importancia de esta certificación para el atletismo nacional. 
+                </p>
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2 class="titulo">El Real Valladolid hará la pretemporada en Chile y jugará dos partidos ante el Colo Colo</h2>
+                <h3 class="categoria">Fútbol</h3>
+                <div>
+                <img src="../source/futbol.png" alt="img maraton " class= "img">
+                <p class="parrafo">
+                    El club español Real Valladolid ha anunciado que llevará a cabo su pretemporada en Chile durante julio, 
+                    disputando dos partidos amistosos contra Colo Colo en conmemoración del centenario del equipo chileno. 
+                    Los encuentros se jugarán el 23 de julio en el Estadio Monumental y el 27 de julio en Concepción, 
+                    celebrando la histórica conexión entre ambos clubes. 
+                </p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2 class="titulo">Copa Chile 2025: Deportes Santa Cruz se enfrentará este fin de semana a Ñublense</h2>
+                <h3 class="categoria">Fútbol</h3>
+                <div>
+                <img src="../source/futbol2.png" alt="img copa Chile " class= "img">
+                <p class="parrafo">
+                    Deportes Santa Cruz se prepara para recibir a Ñublense en la cuarta fecha de la Copa Chile Coca Cola Sin 
+                    Azúcar 2025. El partido se disputará el sábado 22 de marzo a las 20:00 horas en el estadio Joaquín Muñoz García. 
+                    Tras obtener su primera victoria del año ante Deportes Concepción, el equipo busca mejorar su posición en la tabla, 
+                    donde actualmente se encuentra en el último lugar de su grupo.
+                </p>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
